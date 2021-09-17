@@ -11,7 +11,7 @@ git clone https://github.com/Elda3004/laravel-landing.git
 # go into app's directory
 $ cd laravel-landing
 ```
-Copy .env.example into .env and set your database connection
+Copy .env.example into .env
 
 ``` bash
 # serve with hot reload at localhost:8085
@@ -23,4 +23,5 @@ $ composer install
 # config laravel cache
 $ php artisan key:generate
 $ php artisan config:cache
+$ php artisan migrate --seed
 ```
