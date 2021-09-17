@@ -7,7 +7,7 @@ Laravel backend for landing page project
 ####  Clone the repository
 
 ``` bash
-
+git clone https://github.com/Elda3004/laravel-landing.git
 # go into app's directory
 $ cd laravel-landing
 ```
