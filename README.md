@@ -15,13 +15,14 @@ Copy .env.example into .env
 
 ``` bash
 # serve with hot reload at localhost:8085
-sudo docker-compose up -d
+$ sudo docker-compose up -d
 # enter into docker cmd
-sudo docker-compose exec web-app bash
+$ sudo docker-compose exec web-app bash
 # install app's dependencies
 $ composer install
 # config laravel cache
 $ php artisan key:generate
 $ php artisan config:cache
+# migrate database
 $ php artisan migrate --seed
 ```
