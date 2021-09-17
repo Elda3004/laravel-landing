@@ -1,27 +1,26 @@
 ## Landing Page Laravel
 
-Laravel backend for test landing page
+Laravel backend for landing page project
 
 ### Installation
 
-#### Download and extract repo
-
+####  Clone the repository
 
 ``` bash
 
 # go into app's directory
-$ cd landing-page-laravel
-
-# install app's dependencies
-$ composer install
+$ cd laravel-landing
 ```
-Copy .env.example into .env and set:
-
-	1.db connection
-	2. server url
-
-#### Usage
+Copy .env.example into .env and set your database connection
 
 ``` bash
 # serve with hot reload at localhost:8085
 sudo compose-docker up -d
+# enter into docker cmd
+sudo docker-compose exec web-app bash
+# install app's dependencies
+$ composer install
+# config laravel cache
+$ php artisan key:generate
+$ php artisan config:cache
+```
