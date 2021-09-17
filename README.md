@@ -15,7 +15,7 @@ Copy .env.example into .env and set your database connection
 
 ``` bash
 # serve with hot reload at localhost:8085
-sudo compose-docker up -d
+sudo docker-compose up -d
 # enter into docker cmd
 sudo docker-compose exec web-app bash
 # install app's dependencies
